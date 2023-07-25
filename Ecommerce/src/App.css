@@ -1,0 +1,136 @@
+*{
+  margin: 0;padding: 0;
+}
+nav{
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0px 40px; */
+  width:100%;
+  /* background-color: greenyellow; */
+}
+ul{
+  display: flex;
+}
+ul li{
+padding: 15px;
+list-style: none;
+gap: 24px;
+font-size: 25px;
+transition: 0.3s;
+}
+ul li:hover,.login-btn2:hover,.shop-btn:hover,.category-btn:hover{
+  cursor: pointer;
+scale: 1.2;
+}
+.login-btn{
+margin-right: 133px;
+
+
+}
+.login-btn2{
+  background-color: red;
+  border: none;
+color: white;
+  height: 53px;
+  font-size: 20px;
+border-radius: 8px;
+padding:5px 20px;
+margin-top: 10px;
+transition: 0.3s;
+
+}
+.detail-divs{
+  /* background-color: red; */
+  display: flex;
+  margin-top: 13px;
+  padding-left: 53px;
+
+}
+.detail-sec{
+  /* background-color:yellow; */
+  padding: 25px 65px;
+  /* line-height: 70px; */
+
+} 
+.head-para{
+margin-left: 33px;
+font-size: 65px;
+}
+.para-img{
+font-size: 22px;
+margin-top: 33px;
+margin-left: 33px;
+margin-bottom: 13px;
+
+}
+.btn-sec{
+  /* background-color: aqua; */
+  /* margin-left: 33px; */
+}
+.shop-btn{
+  background-color: red;
+  border: none;
+  color: white;
+    height: 53px;
+    font-size: 20px;
+  border-radius: 8px;
+  padding:5px 20px;
+transition: 0.3s;
+
+  margin-top: 10px;
+  margin-left: 33px;
+  color: white;
+  
+}
+.category-btn{
+  color:black;
+  /* border: ; */
+ 
+    height: 53px;
+transition: 0.3s;
+
+    font-size: 20px;
+  border-radius: 8px;
+  padding:5px 20px;
+  margin-top: 10px;
+  margin-left: 33px;
+}
+.avia-para{
+  font-size: 20px;
+}
+.available{
+  margin-top: 53px;
+margin-left: 33px;
+}
+.amazon-img{
+ height: 70px;
+}
+.img-sec{
+  margin-top: 33px;
+  margin-right: 43px;
+}
+.shoe-img{
+transition: 0.3s;
+}
+.shoe-img:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+.link-area{
+  /* background-color: red; */
+  width: 350px;
+  padding-top: 13px;
+  padding-left: 33px;
+  margin-left: 500px;
+}
+.github,.linkdin,.link{
+  margin-left: 33px;
+  transition: 0.3s;
+}
+.github:hover,.linkdin:hover,.link:hover{
+  scale: 0.6;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 80%;
+}
